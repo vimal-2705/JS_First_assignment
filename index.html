@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery - Hover Effect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h3>Image Gallery - Hover Effect</h3>
+  <div id="image"></div>
+  <div id="description">Description of the image will appear here.</div>
+  <div class="preview-container">
+    <div class="preview-item">
+      <img class="preview" src="image1.jpg" alt="Black Car in dark" onmouseover="upDate(this)" onmouseout="undo()">
+      <p class="description">Black Car in dark</p>
+    </div>
+    <div class="preview-item">
+      <img class="preview" src="image2.jpg" alt="White BMW Car in Sunlight" onmouseover="upDate(this)" onmouseout="undo()">
+      <p class="description">White BMW Car in Sunlight</p>
+    </div>
+    <div class="preview-item">
+      <img class="preview" src="image3.jpg" alt="Old Model Red Car" onmouseover="upDate(this)" onmouseout="undo()">
+      <p class="description">Old Model Red Car</p>
+    </div>
+    <div class="preview-item">
+        <img class="preview" src="image4.jpg" alt="Ferari New Model Red Car" onmouseover="upDate(this)" onmouseout="undo()">
+        <p class="description">Ferari New Model Red Car</p>
+    </div>
+    <div class="preview-item">
+        <img class="preview" src="image5.jpg" alt="Speedometer of an Car" onmouseover="upDate(this)" onmouseout="undo()">
+        <p class="description">Speedometer of an Car</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
